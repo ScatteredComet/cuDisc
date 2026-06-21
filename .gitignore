@@ -1,6 +1,6 @@
 # 1. Build and output directories
 build/
-build_temp/
+build_hip/
 tests/outputs/
 tests/scripts/radmc_data_for_pinte/
 codes/outputs/
