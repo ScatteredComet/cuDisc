@@ -1,9 +1,11 @@
-*
-!*.*
-!*/
-!makefile
-!LICENSE
+# 1. Build and output directories
+build/
+build_temp/
+tests/outputs/
+tests/scripts/radmc_data_for_pinte/
+codes/outputs/
 
+# 2. Specific file types
 *.i
 *.ii
 *.gpu
@@ -12,8 +14,6 @@
 *.fatbin
 *.dat
 *.inp
-*.txt
-!requirements.txt
 *.npz
 *.pkl
 *.npy
@@ -24,8 +24,7 @@
 *.sizes
 *.png
 *.jpg
-!/codes/opacities/*
-tests/outputs/
-tests/scripts/radmc_data_for_pinte/
-codes/outputs/
-build
+
+# 3. Other
+*.o
+*~
