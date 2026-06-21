@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "cudisc"
+version = "v0.0.0.dev0"
+description = ""
+authors = ["Richard Booth"]
+license = "GPL-3.0-only"
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.12"
+matplotlib = ">=3.0.0"
+numpy = ">=1.10.0"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
